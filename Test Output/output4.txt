@@ -1,0 +1,264 @@
+
+Command: tree_insert
+704564  Explorer    Ford        23695.00  
+
+Command: tree_insert
+392430  Wrangler    Jeep        28870.00  
+
+Command: tree_insert
+871001  Equinox     Chevrolet   23800.00  
+
+Command: tree_insert
+282001  Camry       Toyota      27945.00  
+
+Command: tree_insert
+461423  F-Series    Ford        46988.00  
+
+Command: tree_insert
+529145  Corolla     Toyota      23174.00  
+
+Command: tree_insert
+165432  Silverado   Chevrolet   34845.00  
+
+Command: tree_insert
+692153  Accord      Honda       24970.00  
+
+Command: tree_insert
+597280  Cherokee    Jeep        3400.00   
+
+Command: tree_insert
+748132  S-Class     Mercedes    4600.00   
+
+Command: tree_insert
+758129  N944        Porsche     2500.00   
+
+Command: tree_insert
+682633  Daytona     Studebaker  18000.00  
+
+Command: tree_insert
+882723  Daytona     Studebaker  10600.00  
+
+Command: tree_insert
+456515  Corvette    Chevrolet   8800.00   
+
+Command: tree_insert
+136843  Sienna      Toyota      15500.00  
+
+Command: tree_insert
+136599  Astro       Chevrolet   2000.00   
+
+Command: tree_insert
+136841  Thunderbird Ford        560.00    
+
+Command: tree_insert
+978983  Nova        Chevrolet   77898.00  
+
+Command: tree_insert
+779001  Mustang     Ford        45400.00  
+
+Command: tree_insert
+982733  Charger     Dodge       49810.00  
+
+Command: tree_insert
+116641  MX-5 Miata  Mazda       3500.00   
+
+Command: tree_preorder
+529145  Corolla     Toyota      23174.00    BLACK
+165432  Silverado   Chevrolet   34845.00    BLACK
+136841  Thunderbird Ford        560.00        RED
+136599  Astro       Chevrolet   2000.00     BLACK
+116641  MX-5 Miata  Mazda       3500.00       RED
+136843  Sienna      Toyota      15500.00    BLACK
+392430  Wrangler    Jeep        28870.00      RED
+282001  Camry       Toyota      27945.00    BLACK
+461423  F-Series    Ford        46988.00    BLACK
+456515  Corvette    Chevrolet   8800.00       RED
+758129  N944        Porsche     2500.00     BLACK
+704564  Explorer    Ford        23695.00      RED
+682633  Daytona     Studebaker  18000.00    BLACK
+597280  Cherokee    Jeep        3400.00       RED
+692153  Accord      Honda       24970.00      RED
+748132  S-Class     Mercedes    4600.00     BLACK
+882723  Daytona     Studebaker  10600.00      RED
+871001  Equinox     Chevrolet   23800.00    BLACK
+779001  Mustang     Ford        45400.00      RED
+978983  Nova        Chevrolet   77898.00    BLACK
+982733  Charger     Dodge       49810.00      RED
+
+Command: tree_inorder
+116641  MX-5 Miata  Mazda       3500.00       RED
+136599  Astro       Chevrolet   2000.00     BLACK
+136841  Thunderbird Ford        560.00        RED
+136843  Sienna      Toyota      15500.00    BLACK
+165432  Silverado   Chevrolet   34845.00    BLACK
+282001  Camry       Toyota      27945.00    BLACK
+392430  Wrangler    Jeep        28870.00      RED
+456515  Corvette    Chevrolet   8800.00       RED
+461423  F-Series    Ford        46988.00    BLACK
+529145  Corolla     Toyota      23174.00    BLACK
+597280  Cherokee    Jeep        3400.00       RED
+682633  Daytona     Studebaker  18000.00    BLACK
+692153  Accord      Honda       24970.00      RED
+704564  Explorer    Ford        23695.00      RED
+748132  S-Class     Mercedes    4600.00     BLACK
+758129  N944        Porsche     2500.00     BLACK
+779001  Mustang     Ford        45400.00      RED
+871001  Equinox     Chevrolet   23800.00    BLACK
+882723  Daytona     Studebaker  10600.00      RED
+978983  Nova        Chevrolet   77898.00    BLACK
+982733  Charger     Dodge       49810.00      RED
+
+Command: tree_postorder
+116641  MX-5 Miata  Mazda       3500.00       RED
+136599  Astro       Chevrolet   2000.00     BLACK
+136843  Sienna      Toyota      15500.00    BLACK
+136841  Thunderbird Ford        560.00        RED
+282001  Camry       Toyota      27945.00    BLACK
+456515  Corvette    Chevrolet   8800.00       RED
+461423  F-Series    Ford        46988.00    BLACK
+392430  Wrangler    Jeep        28870.00      RED
+165432  Silverado   Chevrolet   34845.00    BLACK
+597280  Cherokee    Jeep        3400.00       RED
+692153  Accord      Honda       24970.00      RED
+682633  Daytona     Studebaker  18000.00    BLACK
+748132  S-Class     Mercedes    4600.00     BLACK
+704564  Explorer    Ford        23695.00      RED
+779001  Mustang     Ford        45400.00      RED
+871001  Equinox     Chevrolet   23800.00    BLACK
+982733  Charger     Dodge       49810.00      RED
+978983  Nova        Chevrolet   77898.00    BLACK
+882723  Daytona     Studebaker  10600.00      RED
+758129  N944        Porsche     2500.00     BLACK
+529145  Corolla     Toyota      23174.00    BLACK
+
+Command: tree_search
+136599  Astro       Chevrolet    is FOUND.
+
+Command: tree_search
+116641  MX-5 Miata  Mazda        is FOUND.
+
+Command: tree_search
+982733  Charger     Dodge        is FOUND.
+
+Command: tree_search
+982733  Accord      Honda        is NOT FOUND.
+
+Command: tree_search
+597280  Cherokee    Jeep         is FOUND.
+
+Command: tree_search
+461423  F-Series    Ford         is FOUND.
+
+Command: tree_predecessor
+116641  MX-5 Miata  Mazda        is FOUND.
+Its Predecessor does NOT EXIST
+
+Command: tree_predecessor
+982733  Charger     Dodge        is FOUND.
+Its Predecessor is: 
+978983  Nova        Chevrolet   77898.00    BLACK
+
+Command: tree_predecessor
+597280  Cherokee    Jeep         is FOUND.
+Its Predecessor is: 
+529145  Corolla     Toyota      23174.00    BLACK
+
+Command: tree_successor
+116641  MX-5 Miata  Mazda        is FOUND.
+Its Successor is: 
+136599  Astro       Chevrolet   2000.00     BLACK
+
+Command: tree_successor
+982733  Charger     Dodge        is FOUND.
+Its Successor does NOT EXIST
+
+Command: tree_successor
+597280  Cherokee    Jeep         is FOUND.
+Its Successor is: 
+682633  Daytona     Studebaker  18000.00    BLACK
+
+Command: tree_minimum
+The MINIMUM is:
+116641  MX-5 Miata  Mazda       3500.00       RED
+
+Command: tree_maximum
+The MAXIMUM is:
+982733  Charger     Dodge       49810.00      RED
+
+Command: tree_insert
+817732  Altima      Nissan      1480.00   
+
+Command: tree_insert
+642875  Camaro      Chevrolet   18550.00  
+
+Command: tree_insert
+326950  F-100       Ford        14300.00  
+
+Command: tree_insert
+132829  F-250       Ford        4750.00   
+
+Command: tree_insert
+525067  Maxima      Nissan      3050.00   
+
+Command: tree_insert
+929023  Altima      Nissan      4050.00   
+
+Command: tree_insert
+802939  300 Series  Chrysler    5390.00   
+
+Command: tree_insert
+108271  Corolla     Toyota      4050.00   
+
+Command: tree_insert
+724186  Tacoma      Toyota      5000.00   
+
+Command: tree_insert
+916613  Impreza     Subaru      3550.00   
+
+Command: tree_insert
+119358  CR-V        Honda       3500.00   
+
+Command: tree_inorder
+108271  Corolla     Toyota      4050.00       RED
+116641  MX-5 Miata  Mazda       3500.00     BLACK
+119358  CR-V        Honda       3500.00       RED
+132829  F-250       Ford        4750.00       RED
+136599  Astro       Chevrolet   2000.00     BLACK
+136841  Thunderbird Ford        560.00      BLACK
+136843  Sienna      Toyota      15500.00    BLACK
+165432  Silverado   Chevrolet   34845.00      RED
+282001  Camry       Toyota      27945.00    BLACK
+326950  F-100       Ford        14300.00      RED
+392430  Wrangler    Jeep        28870.00    BLACK
+456515  Corvette    Chevrolet   8800.00       RED
+461423  F-Series    Ford        46988.00    BLACK
+525067  Maxima      Nissan      3050.00       RED
+529145  Corolla     Toyota      23174.00    BLACK
+597280  Cherokee    Jeep        3400.00     BLACK
+642875  Camaro      Chevrolet   18550.00      RED
+682633  Daytona     Studebaker  18000.00      RED
+692153  Accord      Honda       24970.00    BLACK
+704564  Explorer    Ford        23695.00    BLACK
+724186  Tacoma      Toyota      5000.00       RED
+748132  S-Class     Mercedes    4600.00     BLACK
+758129  N944        Porsche     2500.00       RED
+779001  Mustang     Ford        45400.00    BLACK
+802939  300 Series  Chrysler    5390.00       RED
+817732  Altima      Nissan      1480.00       RED
+871001  Equinox     Chevrolet   23800.00    BLACK
+882723  Daytona     Studebaker  10600.00    BLACK
+916613  Impreza     Subaru      3550.00       RED
+929023  Altima      Nissan      4050.00     BLACK
+978983  Nova        Chevrolet   77898.00      RED
+982733  Charger     Dodge       49810.00    BLACK
+
+Command: tree_minimum
+The MINIMUM is:
+108271  Corolla     Toyota      4050.00       RED
+
+Command: tree_maximum
+The MAXIMUM is:
+982733  Charger     Dodge       49810.00    BLACK
+
+Command: quit
+The number of nodes deleted: 32

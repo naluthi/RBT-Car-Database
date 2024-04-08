@@ -1,0 +1,77 @@
+
+Command: tree_insert
+392430  Wrangler    Jeep        28870.00  
+
+Command: tree_insert
+461423  F-Series    Ford        46988.00  
+
+Command: tree_insert
+165432  Silverado   Chevrolet   34845.00  
+
+Command: tree_insert
+282001  Camry       Toyota      27945.00  
+
+Command: tree_insert
+529145  Corolla     Toyota      23174.00  
+
+Command: tree_insert
+871001  Equinox     Chevrolet   23800.00  
+
+Command: tree_insert
+704564  Explorer    Ford        23695.00  
+
+Command: tree_insert
+692153  Accord      Honda       24970.00  
+
+Command: tree_inorder
+165432  Silverado   Chevrolet   34845.00    BLACK
+282001  Camry       Toyota      27945.00      RED
+392430  Wrangler    Jeep        28870.00    BLACK
+461423  F-Series    Ford        46988.00    BLACK
+529145  Corolla     Toyota      23174.00      RED
+692153  Accord      Honda       24970.00      RED
+704564  Explorer    Ford        23695.00    BLACK
+871001  Equinox     Chevrolet   23800.00      RED
+
+Command: tree_preorder
+392430  Wrangler    Jeep        28870.00    BLACK
+165432  Silverado   Chevrolet   34845.00    BLACK
+282001  Camry       Toyota      27945.00      RED
+529145  Corolla     Toyota      23174.00      RED
+461423  F-Series    Ford        46988.00    BLACK
+704564  Explorer    Ford        23695.00    BLACK
+692153  Accord      Honda       24970.00      RED
+871001  Equinox     Chevrolet   23800.00      RED
+
+Command: tree_postorder
+282001  Camry       Toyota      27945.00      RED
+165432  Silverado   Chevrolet   34845.00    BLACK
+461423  F-Series    Ford        46988.00    BLACK
+692153  Accord      Honda       24970.00      RED
+871001  Equinox     Chevrolet   23800.00      RED
+704564  Explorer    Ford        23695.00    BLACK
+529145  Corolla     Toyota      23174.00      RED
+392430  Wrangler    Jeep        28870.00    BLACK
+
+Command: tree_minimum
+The MINIMUM is:
+165432  Silverado   Chevrolet   34845.00    BLACK
+
+Command: tree_maximum
+The MAXIMUM is:
+871001  Equinox     Chevrolet   23800.00      RED
+
+Command: tree_search
+392430  Wrangler    Jeep         is FOUND.
+
+Command: tree_search
+461423  Explorer    Ford         is NOT FOUND.
+
+Command: tree_search
+165432  Silverado   Chevrolet    is FOUND.
+
+Command: tree_search
+692153  Accord      Toyota       is NOT FOUND.
+
+Command: quit
+The number of nodes deleted: 8
